@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"content="width=device-width, initial-scale=1.0">
+        <title>PeriphTech Depot</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" href="Images/logo.png" type="image/icon type"> <!--gawa logo here-->
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <a href="index.html"><img src="images/logo.png" width="125px"></a>
+                    </div>
+                    <nav>
+                        <ul id="MenuItems">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="products.html">Products</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="account.html">Account</a></li>
+                        </ul>
+                    </nav>
+                    <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+                    <img src="images/menu.png" onclick="menutoggle()" class="menu-icon">
+                </div>
+            </div>
+            <div class="header1">
+                <div class="row">
+                    <div class="col-2">
+                        <h1>WELCOME TO OUR WEBSITE</h1>
+                        <p>Are you into technology? Do you need computer parts and cool gadgets? Well, you're in the right place! We've thrilled to introduce our new online store, made especially for people who love PCs and all things tech. It's like a virtual treasure chest filled with computer parts, accessories, and helpful services. Let's dive into the
+                        world of the latest and greatest technology.
+                        </p>
+                        <h1>OUR STORY AND WHY WE EXIST:</h1>
+                        <p>Our journey began with a deep interest in technology. We realized that in a world where gaming, working from home, and
+                        the desire to upgrade your PC is super common, it's tough to find great computer stuff all in one spot. That's where we
+                        come in.
+                        At PeriphTech Depot, we don't just want to meet your expectations; we aim to surpass them. We invite you to embark on
+                        this exciting journey with us and explore the world of technology like never before. Join us, and together, we'll
+                        discover, innovate, and experience the future of PC gear and services.
+                        Welcome to a place where technology meets passion, where convenience meets innovation, and where you can satisfy your
+                        tech dreams. PeriphTech Depot - Where Tech Dreams Come True♥..</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--Section 1-->
+    <Section>
+        <div class="team">
+            <div class="row">
+            <div class="col-2">
+                <h2>Meet our team and store</h2>
+                <p>PeriphTech Depot is your one-stop shop for everything related to computers. We've put a lot of thought into making this
+                place easy to use. It's like a digital haven for tech enthusiasts.As the name suggests, we've worked hard to make sure
+                our website is a fantastic place to shop.</p>
+            </div>
+            </div>
+        </div>
+        <div class="testimonial">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-3">
+        
+                        <p></p>
+        
+                        <img src="images/lo.jpg">
+                        <h3>John Bert Lo</h3>   
+                    </div>
+                    <div class="col-3">
+        
+                        <p></p>
+        
+                        <img src="images/tub.jpg">
+                        <h3>Arthur Tubianosa</h3>
+                    </div>
+                    <div class="col-3">
+        
+                        <p></p>
+        
+                        <img src="images/renz.png">
+                        <h3>Renz Yabut</h3>
+                    </div>
+                    <div class="col-3">
+        
+                        <p></p>
+        
+                        <img src="images/maure.png">
+                        <h3>Ma. Fatima Anne Arguelles</h3>
+                    </div>
+                    <div class="col-3">
+        
+                        <p></p>
+        
+                        <img src="images/gavino.png">
+                        <h3>Angela Lualhati</h3>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col1">
+                        <h3>Get The App</h3>
+                        <p>Get The App for Android and ios smart phone.</p>
+                        <div class="app-logo">
+                            <img src="images/play-store.png">
+                            <img src="images/app-store.png">
+                        </div>
+                    </div>
+                    <div class="footer-col2">
+                        <img src="images/logo.png">
+                        <p>Upgrade your computer with PeriphTech Depot.<br>We've got what you need to level up your tech.
+                        </p>
+                    </div>
+                    <div class="footer-col3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Deals and Promotions</li>
+                            <li>Return Policy</li>
+                            <li>Customer Reviews</li>
+                            <li>FAQ</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col4">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter
+                            <li>
+                            <li>Instagram</li>
+                            <li>YouTube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </div>
+    </Section>
+    
+    
+        <script>
+            var MenuItems = document.getElementById("MenuItems");
+    
+            MenuItems.style.maxHeight = "0px";
+    
+            function menutoggle() {
+                if (MenuItems.style.maxHeight == "0px") {
+                    MenuItems.style.maxHeight = "200px";
+                } else {
+                    MenuItems.style.maxHeight = "0px"
+                }
+            }
+    
+        </script>
+    
+    </body>
+</html>
